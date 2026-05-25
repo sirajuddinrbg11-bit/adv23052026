@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load("lr.pkl")
+model = joblib.load("lr.sav")
 
 st.title("Sales Prediction App")
 
